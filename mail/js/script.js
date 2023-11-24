@@ -12,11 +12,10 @@ for(i=0; i<size; i++){
     if(list_mail[i] == mail){
        flag= true;
     }
-   
-    if(flag == true){
-          alert("La tua mail risulta nella nostra base dati");
+}
+
+ if(flag == true){
+        alert("La tua mail risulta nella nostra base dati");
     } else{
         alert("Ci dispiace, la tua mail non risulta nella nostra base dati");
     }
-
-}
